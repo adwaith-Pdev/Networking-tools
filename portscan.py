@@ -38,7 +38,7 @@ def detect_os(ttl):
         return "Unknown"
 
 
-def scan_ports(target, start_port, end_port):
+def scan_ports(target, start_port, end_port):#here we initialise the starting and end port maybe default 1-1024
     print(f"\n🔍 Scanning {target}")
     print("-" * 60)
 
