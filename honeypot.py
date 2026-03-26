@@ -4,7 +4,7 @@ import csv
 import os
 from datetime import datetime
 
-# Configuration
+
 HOST = "0.0.0.0"
 PORTS = [22, 80, 443, 8080]
 
@@ -15,16 +15,15 @@ FAKE_BANNERS = {
     8080: "Welcome to our super secure service!"
 }
 
-# Ensure logs folder exists
 LOG_DIR = "logs"
 os.makedirs(LOG_DIR, exist_ok=True)
 LOG_FILE = os.path.join(LOG_DIR, "connections.csv")
 
-# Initialize CSV file if it doesn't exist
+
 if not os.path.exists(LOG_FILE):
     with open(LOG_FILE, 'w', newline='') as f:
         writer = csv.writer(f)
-        writer.writerow(['timestamp', 'ip', 'port', 'data'])  # headers
+        writer.writerow(['timestamp', 'ip', 'port', 'data'])  
 
 def log_connection(addr, port, data):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
