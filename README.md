@@ -1,10 +1,10 @@
-🔐 Networking Tools
+ Networking Tools
 
 A collection of Python-based cybersecurity tools for network scanning, vulnerability detection, and honeypot simulation.
 
 
 
-🚀 What This Repo Does
+ What This Repo Does
 
 - Scans target systems for open ports
 - Performs basic vulnerability detection
@@ -13,18 +13,18 @@ A collection of Python-based cybersecurity tools for network scanning, vulnerabi
 
 
 
-🔥 Tools Included
+Tools Included
 
-🔍 Port Scanner & Vulnerability Detector
+Port Scanner & Vulnerability Detector
 
 Features:
 
-- ⚡ Multi-threaded port scanning
-- 🌐 Banner grabbing for service detection
-- 🛡️ Pattern-based vulnerability identification
-- 🔎 Web analysis (HTTP/HTTPS)
-- 📂 Common endpoint discovery ("/admin", "/login", etc.)
-- 📄 Automatic report generation
+-  Multi-threaded port scanning
+-  Banner grabbing for service detection
+-  Pattern-based vulnerability identification
+-  Web analysis (HTTP/HTTPS)
+-  Common endpoint discovery ("/admin", "/login", etc.)
+- Automatic report generation
 
 Output includes:
 
@@ -33,8 +33,7 @@ Output includes:
 - Potential vulnerabilities
 - Discovered endpoints
 
-
-🍯 Multi-Port Honeypot
+Multi-Port Honeypot
 
 Features:
 
@@ -54,9 +53,9 @@ Features:
 - Networking (TCP/IP)
 
 
-▶️ Usage
+Usage
 
-🔍 Run Scanner
+ Run Scanner
 
 python scanner.py
 
@@ -66,12 +65,12 @@ You will be prompted for:
 - Port range
   
 
-🍯 Run Honeypot
+Run Honeypot
 
 python honeypot.py
 
 
-📁 Output
+ Output
 
 Scanner
 
@@ -106,13 +105,13 @@ This project is for educational and ethical purposes only.
 Do not scan or interact with systems without proper authorization.
 
 
-🎯 Purpose
+ Purpose
 
 - Learn network scanning & security concepts
 - Understand real-world attack patterns
 - Build hands-on cybersecurity tools
 
-👨‍💻 Author
+ Author
 
 Adwaith
 Cybersecurity enthusiastic 
